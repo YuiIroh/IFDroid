@@ -1,0 +1,2 @@
+﻿sample,ok,nodes_in,edges_in,clean_nodes,clean_edges,class_method_count,method_edge_pairs,error
+base,False,0,0,0,0,0,0,KeyError: 'class_dot'

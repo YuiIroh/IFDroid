@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "E:\Text to image\IFDroid\clean_callgraph_csv.py", line 404, in main
+    row = process_one_sample(sample_dir, out_dir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Text to image\IFDroid\clean_callgraph_csv.py", line 326, in process_one_sample
+    class_method_summary_df = pd.DataFrame(summary_rows).sort_values(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\pythonversion\Python\Python312\Lib\site-packages\pandas\core\frame.py", line 7179, in sort_values
+    keys = [self._get_label_or_level_values(x, axis=axis) for x in by]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Python\pythonversion\Python\Python312\Lib\site-packages\pandas\core\generic.py", line 1911, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'class_dot'

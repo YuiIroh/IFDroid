@@ -1,0 +1,40 @@
+{
+  "apk_file": "E:\\Text to image\\APK\\base.apk",
+  "package_name": "vip.laowang.app",
+  "app_name": "老王论坛",
+  "version_name": "2.0.5",
+  "version_code": "100",
+  "min_sdk": "24",
+  "target_sdk": "34",
+  "max_sdk": null,
+  "permissions": [
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "vip.laowang.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.INTERNET",
+    "android.permission.CAMERA",
+    "android.permission.ACCESS_NETWORK_STATE"
+  ],
+  "activities": [
+    "com.laowang.forum.ui.settings.LineSelectActivity",
+    "com.laowang.forum.ui.settings.VpnDownloadActivity",
+    "com.laowang.forum.ui.webview.DownloadActivity",
+    "com.laowang.forum.ui.settings.CacheManageActivity",
+    "com.laowang.forum.ui.settings.AboutActivity",
+    "com.laowang.forum.ui.launch.LaunchActivity",
+    "com.laowang.forum.ui.webview.WebViewActivity",
+    "com.laowang.forum.ui.main.MainActivity",
+    "com.laowang.forum.ui.webview.ExternalLinkActivity",
+    "com.laowang.forum.ui.settings.SettingsActivity",
+    "com.laowang.forum.ui.settings.DisplaySettingsActivity"
+  ],
+  "services": [],
+  "receivers": [
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "providers": [
+    "androidx.core.content.FileProvider",
+    "androidx.startup.InitializationProvider"
+  ]
+}

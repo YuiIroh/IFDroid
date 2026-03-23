@@ -1,0 +1,12 @@
+{
+  "input_nodes_csv": "E:\\Text to image\\IFDroid\\out_callgraphs\\base\\nodes.csv",
+  "input_edges_csv": "E:\\Text to image\\IFDroid\\out_callgraphs\\base\\edges.csv",
+  "input_api_set_csv": null,
+  "output_dir": "E:\\Text to image\\IFDroid\\out_callgraphs\\baseconverted_callgraph_hardcoded",
+  "total_nodes": 16321,
+  "total_edges": 45396,
+  "external_nodes": 3888,
+  "app_method_nodes": 12433,
+  "external_api_nodes": 3888,
+  "obfuscated_suspect_nodes": 7923
+}
