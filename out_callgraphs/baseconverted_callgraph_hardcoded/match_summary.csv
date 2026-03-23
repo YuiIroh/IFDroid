@@ -1,0 +1,2 @@
+﻿input_nodes_csv,input_edges_csv,input_api_set_csv,output_dir,total_nodes,total_edges,external_nodes,app_method_nodes,external_api_nodes,obfuscated_suspect_nodes
+E:\Text to image\IFDroid\out_callgraphs\base\nodes.csv,E:\Text to image\IFDroid\out_callgraphs\base\edges.csv,,E:\Text to image\IFDroid\out_callgraphs\baseconverted_callgraph_hardcoded,16321,45396,3888,12433,3888,7923

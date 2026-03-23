@@ -1,0 +1,9 @@
+{
+  "num_nodes": 16321,
+  "num_edges": 45396,
+  "matched_api_count": 0,
+  "nonzero_feature_count": 0,
+  "aggregate_mode": "max",
+  "katz_alpha": 0.0008057296329453895,
+  "pixel_clip": true
+}
